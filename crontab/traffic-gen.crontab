@@ -1,0 +1,6 @@
+0 * * * * /root/stress/nsa3130/01_ab_to_local.sh
+10 * * * * /root/stress/nsa3130/02_iperf_udp_100M.sh
+20 * * * * /root/stress/nsa3130/03_ab_to_external.sh
+30 * * * * /root/stress/nsa3130/04_ab_to_local_with_iperf_udp.sh
+40 * * * * /root/stress/nsa3130/05_ab_to_external_with_iperf_udp.sh
+50 * * * * /root/stress/nsa3130/06_ab_to_all_with_iperf_udp.sh
